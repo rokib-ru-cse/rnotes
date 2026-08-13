@@ -1,1 +1,83 @@
-hi
+Playwright Command
+
+npx playwright codegen https://rokib.therapdev.net
+
+gradle runPlanPreAuthTest -Pbrowser=chromium -Pdebug=true
+
+gradle runBulkLetterTest -Pbrowser=chromium -Pdebug=true
+
+
+{
+  "name": "playwright-js-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install-browsers": "npx playwright install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.50.1",
+    "playwright": "^1.50.1"
+  }
+}
+
+====================================
+
+React Command
+
+npm run dev -w projects/plan-preauth/
+
+npm run build -w projects/plan-preauth/
+
+https://rokib-rdev.therapdev.net/ma/dePaUi/base?ipId=1128128&mode=CREATE
+
+testId='program'
+
+npm run buildAll
+
+npm run installAll
+
+npm run build -w library/core
+
+npm run test -w projects/
+
+
+<pre>{JSON.stringify(serviceCategoryDto, null, 2)}</pre>
+
+
+=================================================
+
+Weblogic
+
+lsof -i :8585
+
+ps -ef | grep tomcat
+
+ps -ef | grep weblogic
+
+kill -9 $(jps -lv | grep 'weblogic.Server' | awk '{print $1}')
+
+ nohup ./startWebLogic.sh > ~/weblogic.out 2>&1 &
+
+./dev-run.sh setup sync
+
+cat /proc/replacewithPID/cgroup
+
+for pid in 2549293 2549019; do echo "PID $pid:"; grep docker /proc/$pid/cgroup || echo "Not in Docker"; echo; done
+
+tail -f weblogic.out | grep -A 100 "DE:PA:RESPONSE-PROCESSING-CRON] Error"
+
+sudo chown -R $USER:$USER .
+
+
+
+sudo chown -R $USER:$USER /usr/local/Oracle
+
+sudo chown -R $USER:$USER /usr/local/etc/therap/
+
+
+=====================================================
